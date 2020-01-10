@@ -1,15 +1,184 @@
 
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "login": {
+"jwt": "token_here"
+},
+  "projectList": [
+{
+"name": "Cardiology",
+"products": 4
+},
+{
+"name": "General Internal Medicine",
+"products": 12
+},
+{
+"name": "Hospital Medicine",
+"products": 3
+},
+{
+"name": "Infectious Diseases",
+"products": 7
+},
+{
+"name": "myPersonal Account",
+"products": 9
+}
+],
+  "stats": {
+"activeProducts": 6,
+"totalCredits": "2k",
+"credits": "512mb",
+"avgCreditsPerDay": 7,
+"burnRate": 30,
+"daysRemaining": 96,
+"progress": "On Track"
+},
+  "recents": [
+{
+"name": "Compute Services - EC2 with EIP",
+"spot": 30,
+"onDemand": 90
+},
+{
+"name": "Amazon SageMaker - With JupyterHub",
+"spot": 30,
+"onDemand": 90
+},
+{
+"name": "Storage Services - Amazon S3 Intelligent",
+"spot": 30,
+"onDemand": 90
+},
+{
+"name": "Compute Services - EC2 with EIP",
+"spot": 30,
+"onDemand": 90
+},
+{
+"name": "Amazon SageMaker - With JupyterHub",
+"spot": 30,
+"onDemand": 90
+},
+{
+"name": "Storage Services - Amazon S3 Intelligent",
+"spot": 30,
+"onDemand": 90
+}
+], 
+  "provisionedProducts": [
+{
+"name": "Compute Services - EC2 with EIP",
+"type": "Compute | Monitoring",
+"id": "id-code-000000-0000",
+"created": "11 Dec 2019",
+"status": "Running"
+},
+{
+"name": "Amazon SageMaker - With JupyterHub",
+"type": "Analytics | Compute",
+"id": "id-code-000000-0000",
+"created": "11 Dec 2019",
+"status": "Error"
+},
+{
+"name": "Compute Services - EC2 with EIP",
+"type": "Compute | Monitoring",
+"id": "id-code-000000-0000",
+"created": "11 Dec 2019",
+"status": "Running"
+},
+{
+"name": "Amazon SageMaker - With JupyterHub",
+"type": "Analytics | Compute",
+"id": "id-code-000000-0000",
+"created": "11 Dec 2019",
+"status": "Not Running"
+},
+{
+"name": "Compute Services - EC2 with EIP",
+"type": "Compute | Monitoring",
+"id": "id-code-000000-0000",
+"created": "11 Dec 2019",
+"status": "Running"
+},
+{
+"name": "Amazon SageMaker - With JupyterHub",
+"type": "Analytics | Compute",
+"id": "id-code-000000-0000",
+"created": "11 Dec 2019",
+"status": "Error"
+},
+{
+"name": "Compute Services - EC2 with EIP",
+"type": "Compute | Monitoring",
+"id": "id-code-000000-0000",
+"created": "11 Dec 2019",
+"status": "Running"
+},
+{
+"name": "Amazon SageMaker - With JupyterHub",
+"type": "Analytics | Compute",
+"id": "id-code-000000-0000",
+"created": "11 Dec 2019",
+"status": "Running"
+}
+],
+  "productCatalogItems": [
+{
+"name": "Compute Services - EC2 with EIP",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+"type": "Compute",
+"spot": 30,
+"onDemand": 90
+},
+{
+"name": "Amazon SageMaker - With JupyterHub",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+"type": "Analytics",
+"spot": 30,
+"onDemand": 90
+},
+{
+"name": "Storage Services - Amazon S3 Intelligent",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+"type": "Storage",
+"spot": 30,
+"onDemand": 90
+}
+],
+  "provisionedProductDetails": {
+"dateCreated": "11/01/2019 02:15p (EST)",
+"status": "Running",
+"product": "Product Name",
+"version": "v0.1",
+"providedBy": "Ness Technologies",
+"support": "email@support.com",
+"supportLink": "www.support.com",
+"supportDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur nisl id est blandit semper. Praesent ut ante tellus.",
+"events": {
+"status": "Succeeded",
+"recordId": "Product Name",
+"provisionedProductId": "v0.1",
+"type": "PROVISIONED_PRODUCT",
+"eventMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur nisl id est blandit semper. Praesent ut ante tellus.",
+"output": [
+{
+"key": "NameValueOrIdentification",
+"value": "id-code-0011009900.PQRS:stack/AB-000000000000-zxyxwvut",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+},
+{
+"key": "NameValueOrIdentification",
+"value": "id-code-0011009900.PQRS:stack/AB-000000000000-zxyxwvut",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+},
+{
+"key": "NameValueOrIdentification",
+"value": "id-code-0011009900.PQRS:stack/AB-000000000000-zxyxwvut",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+}
+]
+}
+}
 }
